@@ -9,5 +9,5 @@ let click_me_btn = document.getElementById("example_anchor");
 let m = document.getElementById("example_anchor");
 m.addEventListener("click", function (e) {
   e.preventDefault();
-  console.log(e.target.dataset.id);
+  console.log(e.target.dataset.id, e.target.dataset.name);
 });
